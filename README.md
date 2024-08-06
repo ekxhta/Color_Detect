@@ -1,5 +1,10 @@
 # COLOR DETECTION SYSTEM FOR STATIC AND LIVE IMAGES USING MATLAB 
-
+## INSTRUCTIONS:
+- add image file called "img.jpg" where you wish for the colour to be detected. (for static image detection)
+- change the rgb ratios in the code according to color you wish to detect.
+- for live image color detection make sure the camera permissions are on.
+  
+## INTRODUCTION 
 Colour detection plays a crucial role in various fields such as:
 - Computer vision
 - Image processing
@@ -25,23 +30,29 @@ In order to achieve the task of developing a versatile colour detection system u
 #### live_cam_detect.m: To extend the colour detection capabilities to dynamic environments, a live_cam run file has been developed. This file facilitates the 
 
 ## Some functions used in our project are as follows:
+
 - Image Reading and Display:
- imread('img.jpg'): Reads the image 'img.jpg.'
+  imread('img.jpg'): Reads the image 'img.jpg.'
   imshow(img1): Displays the original image.
+  
 - Pixel Selection:
   impixel(img1): Allows user to interactively choose pixel for colour reference.
+  
 - Highlighting in Original Image:
   imoverlay(img1,out,'black'): Overlays the binary mask on the original image, highlighting the detected colour.
+  
 - Webcam Setup and Color Detection Loop:
   cam = webcam : Initializes the webcam.
   snapshot(cam): Captures a snapshot from the webcam.
   detect_color(vid_img): Calls the color detection function on each frame.
   imshow(zeros(600,1000,3,'uint8')): Initializes an empty image for displaying webcam feed.
+  
 - Hue-Saturation-Value (HSV) Color Detection Function:
   rgb2hsv(img): Converts the RGB image to the HSV colour space.
   detect_color(img): Main function for detecting a specific colour (red in this case) based on HSV thresholds.
   imfill, bimorph: Operations for enhancing and morphologically processing the detected colour mask.
   imoverlay(img, redObjectMask1, 'black'): Overlays the detected colour on the original image.
+  
 - Webcam Cleanup:
   stop(cam): Stops the webcam.
   delete(cam): Deletes the webcam object
@@ -50,7 +61,6 @@ In order to achieve the task of developing a versatile colour detection system u
 ![image](https://github.com/user-attachments/assets/2ac99769-9e6d-4335-9f2d-f4f6ef0cc5c4)
 
 ![image](https://github.com/user-attachments/assets/7fd527b0-5828-4d46-973b-9687aa2b566d)
-
 
 
 ## SIGNIFICANCE OF THE PROJECT :
