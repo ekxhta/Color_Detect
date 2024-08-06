@@ -55,13 +55,13 @@ In order to achieve the task of developing a versatile colour detection system u
 
 ## SIGNIFICANCE OF THE PROJECT :
 
-A] OBJECT RECOGNITION AND TRACKING
+### A] OBJECT RECOGNITION AND TRACKING :
 The ability to detect a specific color is fundamental for object recognition and tracking. In fields such as robotics and surveillance, identifying and tracking objects of interest based on their color can be crucial.
 
-B] BIOLOGICAL AND ENVIRONMENTAL STUDIES
+### B] BIOLOGICAL AND ENVIRONMENTAL STUDIES :
 In biological research and environmental monitoring, a color detection system can be applied to identify and analyse specific organisms or substances. This is particularly useful for tasks such as plant and wildlife monitoring
 
-C] EDUCATIONAL TOOL
+### C] EDUCATIONAL TOOL :
 A single-color detection system can serve as an educational tool for teaching image processing concepts and computer vision principles. Students can experiment with color detection algorithms and understand
 their applications in real-world scenarios.
 
