@@ -13,7 +13,9 @@ Colour detection plays a crucial role in various fields such as:
 This project focuses on the development of a Colour detection system using MATLAB, capable of analysing both
 
 a) Static Images
+
 b) Live Picture
+
 The project aims to leverage MATLAB's powerful image processing capabilities to accurately identify and isolate specific colours within an image or live video stream.
 MATLAB offers a range of ideal image processing toolkits such as
 - The Image Processing toolkit
@@ -27,9 +29,9 @@ This project addresses the need for a robust and efficient colour detection syst
 ## RELATED LITERATURE:
 
 In order to achieve the task of developing a versatile colour detection system using MATLAB, the following methodologies have been implemented. The project encompasses the implementation of distinct files with varying methods, each contributing to the overall functionality, versatility and efficiency of the system. As mentioned, the following “.m” files have been used in the project:
-#### color_detect_static.m: This code file performs colour-based image segmentation on the static sample input image 'img.jpg' using the REDGREEN-BLUE differentiation method.
-#### detect_color.m: A detect_color function file has been implemented, incorporating the Hue, Saturation, and Value (HSV) colour space segregation algorithm. This would be a more enhanced approach as compared to the above approach of RGB segregation.
-#### live_cam_detect.m: To extend the colour detection capabilities to dynamic environments, a live_cam run file has been developed. This file facilitates the 
+#### - color_detect_static.m: This code file performs colour-based image segmentation on the static sample input image 'img.jpg' using the RED-GREEN-BLUE differentiation method.
+#### - detect_color.m: A detect_color function file has been implemented, incorporating the Hue, Saturation, and Value (HSV) colour space segregation algorithm. This would be a more enhanced approach as compared to the above approach of RGB segregation.
+#### - live_cam_detect.m: To extend the colour detection capabilities to dynamic environments, a live_cam run file has been developed. This file facilitates the continuous functioning of the colour detection system on live camera footage.
 
 ## Some functions used in our project are as follows:
 
