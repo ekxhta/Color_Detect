@@ -1,4 +1,4 @@
-# Color_Detect
+# COLOR DETECTION SYSTEM FOR STATIC AND LIVE IMAGES USING MATLAB 
 
 Colour detection plays a crucial role in various fields such as:
 - Computer vision
@@ -20,9 +20,9 @@ This project addresses the need for a robust and efficient colour detection syst
 ## RELATED LITERATURE:
 
 In order to achieve the task of developing a versatile colour detection system using MATLAB, the following methodologies have been implemented. The project encompasses the implementation of distinct files with varying methods, each contributing to the overall functionality, versatility and efficiency of the system. As mentioned, the following “.m” files have been used in the project:
-### color_detect_static.m: This code file performs colour-based image segmentation on the static sample input image 'img.jpg' using the REDGREEN-BLUE differentiation method.
-### detect_color.m: A detect_color function file has been implemented, incorporating the Hue, Saturation, and Value (HSV) colour space segregation algorithm. This would be a more enhanced approach as compared to the above approach of RGB segregation.
-### live_cam_detect.m: To extend the colour detection capabilities to dynamic environments, a live_cam run file has been developed. This file facilitates the 
+#### color_detect_static.m: This code file performs colour-based image segmentation on the static sample input image 'img.jpg' using the REDGREEN-BLUE differentiation method.
+#### detect_color.m: A detect_color function file has been implemented, incorporating the Hue, Saturation, and Value (HSV) colour space segregation algorithm. This would be a more enhanced approach as compared to the above approach of RGB segregation.
+#### live_cam_detect.m: To extend the colour detection capabilities to dynamic environments, a live_cam run file has been developed. This file facilitates the 
 
 ## Some functions used in our project are as follows:
 - Image Reading and Display:
@@ -45,6 +45,13 @@ In order to achieve the task of developing a versatile colour detection system u
 - Webcam Cleanup:
   stop(cam): Stops the webcam.
   delete(cam): Deletes the webcam object
+
+## RESULTS:
+![image](https://github.com/user-attachments/assets/2ac99769-9e6d-4335-9f2d-f4f6ef0cc5c4)
+
+![image](https://github.com/user-attachments/assets/7fd527b0-5828-4d46-973b-9687aa2b566d)
+
+
 
 ## SIGNIFICANCE OF THE PROJECT :
 
