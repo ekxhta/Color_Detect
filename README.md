@@ -1,15 +1,17 @@
 # COLOR DETECTION SYSTEM FOR STATIC AND LIVE IMAGES USING MATLAB 
 ## INSTRUCTIONS:
-- add image file called "img.jpg" where you wish for the colour to be detected. (for static image detection)
-- change the rgb ratios in the code according to color you wish to detect.
-- for live image color detection make sure the camera permissions are on.
+- Add image file called "img.jpg" where you wish for the colour to be detected. (for static image detection)
+- Change the rgb ratios in the code according to color you wish to detect.
+- For live image color detection make sure the camera permissions are on.
   
 ## INTRODUCTION 
 Colour detection plays a crucial role in various fields such as:
 - Computer vision
 - Image processing
 - Robotics.
+  
 This project focuses on the development of a Colour detection system using MATLAB, capable of analysing both
+
 a) Static Images
 b) Live Picture
 The project aims to leverage MATLAB's powerful image processing capabilities to accurately identify and isolate specific colours within an image or live video stream.
